@@ -1,0 +1,16 @@
+
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    @layer base {
+        td, th{
+            @apply p-2;
+        }
+        td{
+            @apply pl-4;
+        }
+        tr{
+            @apply hover:bg-zinc-300 transition-all;
+
+        }
+    }
