@@ -2,9 +2,17 @@
     <nav class="pr-4 m-4 border-r-2 min-w-52 flex flex-col gap-2">
         <h1 class="text-3xl font-semibold mb-6">LogiPRO</h1>
         <div class="flex flex-col gap-2">
-            <details class="">
-                <summary class="appearance-none list-none">Users</summary>
-                <a href="#">See users</a>
+            <details class="flex flex-col transition-all">
+                <summary class="appearance-none text-xl list-none flex justify-between hover:bg-zinc-50 p-2 rounded-md transition-all focus:border-l focus:rounded-l-none">Users</summary>
+                <div class="border-l">
+                    <div class="p-2 hover:bg-zinc-50 rounded-r-lg">
+                        <a  href="#">See users</a>
+                    </div>
+                    <div class="p-2 hover:bg-zinc-50 rounded-r-lg">
+                        <a  href="#">New user</a>
+                    </div>
+                </div>
+                
             </details>
         </div>
         <div class="mt-auto">
@@ -197,7 +205,7 @@
         </div>
         <div class="flex-1 overflow-y-auto mt-4">
             {#each new Array(10) as i}
-            <div class="flex p-2 gap-2 items-center hover:bg-zinc-200 transition-all rounded-md">
+            <div class="flex p-2 gap-2 items-center hover:bg-zinc-200 transition-all rounded-md mr-2">
                 <div class="rounded-full bg-zinc-100 p-4">MT</div>
                 <div class="flex-1">
                     <h3 class="font-semibold">@MinTamás</h3>
