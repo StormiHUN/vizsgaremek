@@ -1,26 +1,9 @@
-<main class="flex min-h-screen max-h-screen">   
-    <nav class="pr-4 m-4 border-r-2 min-w-52 flex flex-col gap-2">
-        <h1 class="text-3xl font-semibold mb-6">LogiPRO</h1>
-        <div class="flex flex-col gap-2">
-            <details class="flex flex-col transition-all">
-                <summary class="appearance-none text-xl list-none flex justify-between hover:bg-zinc-50 p-2 rounded-md transition-all focus:border-l focus:rounded-l-none">Users</summary>
-                <div class="border-l">
-                    <div class="p-2 hover:bg-zinc-50 rounded-r-lg">
-                        <a  href="#">See users</a>
-                    </div>
-                    <div class="p-2 hover:bg-zinc-50 rounded-r-lg">
-                        <a  href="#">New user</a>
-                    </div>
-                </div>
-                
-            </details>
-        </div>
-        <div class="mt-auto">
-            a
-        </div>
-    </nav>
+<script>
+
+</script>
+<main class="flex min-h-screen max-h-screen flex-1">   
     <!--Information window-->
-    <div class="flex flex-col lg:grid lg:grid-cols-2 lg:grid-rows-2 p-4 gap-4">
+    <div class="flex flex-col lg:grid lg:grid-cols-2 lg:grid-rows-2 p-4 gap-4 flex-1">
 
         <!--Shipments information-->
         <div class="border-2 rounded-lg p-4 flex flex-col gap-4">
