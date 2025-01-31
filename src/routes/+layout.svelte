@@ -13,9 +13,9 @@
     <nav class="pr-4 m-4 border-r-2 min-w-64 flex flex-col gap-2 sticky top-0">
         <h1 class="text-3xl font-semibold mb-6">LogiPRO</h1>
         <div class="flex flex-col gap-2">
-            <a href="/" class="text-2xl flex items-center gap-2 hover:bg-zinc-100 transition-all rounded-md p-2"><House/>Home</a>
+            <a href="/" class="text-2xl flex items-center gap-2 border border-white hover:bg-zinc-100 hover:border-zinc-200 transition-all rounded-md p-2"><House/>Home</a>
             <NavDropdown label="Users"> 
-                <NavLink href="#">
+                <NavLink href="/users">
                     See users
                 </NavLink>
                 <NavLink href="/newuser">
